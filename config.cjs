@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const config = {
   SESSION_ID: process.env.SESSION_ID || "Your Session Id",
-  PREFIX: process.env.PREFIX || 'V',
+  PREFIX: process.env.PREFIX || '',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT !== undefined ? process.env.AUTO_STATUS_REACT === 'true' : true, 
   AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
